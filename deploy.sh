@@ -7,6 +7,8 @@ git pull origin master
 
 npm i yarn -g
 yarn global add serve
+serve -s build -l 3001
+
 yarn 
 yarn run build
 pm2 start "yarn run start:prod" --name=PORTFOLIO
